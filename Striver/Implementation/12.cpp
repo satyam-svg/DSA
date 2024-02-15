@@ -10,7 +10,7 @@ int countDigits(int number) {
 }
 int main() {
 
-        int n;
+        long long int n;
         cin >> n;
 
         int c1= 0;
@@ -18,15 +18,14 @@ int main() {
 
         while (n > 0) {
             int digit = n % 10;
-            if (digit == 4) {
+            if (digit == 4 || digit ==7) {
                 c1++;
-            } else if (digit == 7) {
-                c2++;
             }
             n /= 10;
         }
 
-        int ans=c1 + c2;
+        int ans=c1;
+
         int digitCount = countDigits(ans);
         int ans1=pow(10,digitCount);
         if(ans%ans1==4 || ans%ans1==7){

@@ -1,8 +1,8 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-    int x;
+int main() {
+    long long x; // Change the data type to long long
     cin >> x;
     vector<int> r;
 
@@ -15,12 +15,12 @@ int main(){
     reverse(r.begin(), r.end());
 
     for (int i = 0; i < r.size(); i++) {
-
-        if(r[i]==9){
-           r[i]=9;
-        }
-        else if ((9-r[i])<r[i]) {
+        if (r[i] == 9 && i == 0) {
+            r[i] = 9;
+        } else if ((9 - r[i]) < r[i]) {
             r[i] = 9 - r[i];
+        } else {
+            continue;
         }
     }
 

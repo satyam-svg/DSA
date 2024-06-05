@@ -1,0 +1,1 @@
+{"name":"Local: matric","url":"c:\\Users\\91830\\Desktop\\DSA\\Striver\\Implementation\\matric.cpp","tests":[{"id":1717560471989,"input":"2 2\n1 0\n0 0\n\n\n","output":"0 0 0\n0 1 0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\91830\\Desktop\\DSA\\Striver\\Implementation\\matric.cpp","group":"local","local":true}

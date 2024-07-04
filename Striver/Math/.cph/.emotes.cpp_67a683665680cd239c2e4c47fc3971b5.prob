@@ -1,0 +1,1 @@
+{"name":"Local: emotes","url":"c:\\Users\\91830\\Desktop\\DSA\\Striver\\Math\\emotes.cpp","tests":[{"id":1720072987653,"input":"5 7 2\n1 2 3 4 5\n","output":"1000000000000000000\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\91830\\Desktop\\DSA\\Striver\\Math\\emotes.cpp","group":"local","local":true}
